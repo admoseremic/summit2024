@@ -15,6 +15,12 @@ In this repository, you will find Python Notebooks and other resources that cove
 
 To use the Python Notebooks and other materials in this repository, you will need to have Jupyter Notebook installed. You can simply clone this repository and open the notebooks in Jupyter Notebook to explore the code and run the analyses.
 
+## Reference Links
+
+cjapy: https://github.com/pitchmuc/cjapy?tab=readme-ov-file
+
+Adobe Developer Console: https://developer.adobe.com/developer-console/docs/guides/getting-started/
+
 ## License
 
 This repository is licensed under the [MIT License](notion://www.notion.so/LICENSE).
