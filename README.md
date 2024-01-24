@@ -7,9 +7,8 @@ In this repository, you will find Python Notebooks and other resources that cove
 
 ## Notebooks
 
-- [Notebook 1: Analyzing Customer Behavior](TBD)
-- [Notebook 2: Visualizing Customer Segmentation](TBD)
-- [Notebook 3: Predicting Customer Churn](TBD)
+- [Notebook 1: Querying CJA Data](query_data.ipynb)
+- [Notebook 2: Clustering & Propensity Modeling](clustering.ipynb)
 
 ## Usage
 
