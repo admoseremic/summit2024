@@ -17,9 +17,19 @@ To use the Python Notebooks and other materials in this repository, you will nee
 
 ## Reference Links
 
-cjapy: https://github.com/pitchmuc/cjapy?tab=readme-ov-file
+cjapy:
 
-Adobe Developer Console: https://developer.adobe.com/developer-console/docs/guides/getting-started/
+https://github.com/pitchmuc/cjapy?tab=readme-ov-file
+
+CJA API Documentation:
+
+https://www.adobe.io/cja-apis/docs/api/
+
+https://www.adobe.io/cja-apis/docs/use-cases/
+
+Adobe Developer Console:
+
+https://developer.adobe.com/developer-console/docs/guides/getting-started/
 
 ## License
 
