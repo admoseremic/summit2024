@@ -15,6 +15,17 @@ In this repository, you will find Python Notebooks and other resources that cove
 
 To use the Python Notebooks and other materials in this repository, you will need to have Jupyter Notebook installed. You can simply clone this repository and open the notebooks in Jupyter Notebook to explore the code and run the analyses.
 
+## Dependencies
+
+To use cjapy API methods in Python, you need to have the following libraries installed:
+- pandas
+- requests
+- json
+- PyJWT
+- PyJWT[crypto]
+- pathlib
+- pytest
+
 ## Reference Links
 
 cjapy:
