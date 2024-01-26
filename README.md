@@ -9,6 +9,7 @@ In this repository, you will find Python Notebooks and other resources that cove
 
 - [Notebook 1: Querying CJA Data](query_data.ipynb)
 - [Notebook 2: Clustering & Propensity Modeling](clustering.ipynb)
+- [Notebook 3: Visualizing CJA Data ](visualize_data.ipynb)
 
 ## Usage
 
