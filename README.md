@@ -11,8 +11,8 @@ The materials contained within this repository, presented at Adobe Summit 2024, 
 Here's what you'll find in this repository:
 
 - [**Notebook 1: Querying CJA Data**](query_data.ipynb) - Introduction to data retrieval from CJA for analysis.
-- [**Notebook 2: Clustering & Propensity Modeling**](clustering.ipynb) - Advanced analytics for customer segmentation and behavior prediction.
-- [**Notebook 3: Visualizing CJA Data**](visualize_data.ipynb) - Techniques for creating insightful data visualizations.
+- [**Notebook 2: Visualizing CJA Data**](visualize_data.ipynb) - Techniques for creating insightful data visualizations.
+- [**Notebook 3: Clustering & Propensity Modeling**](clustering.ipynb) - Advanced analytics for customer segmentation and behavior prediction.
 - [**Notebook 4: Ingesting Data Back into AEP > CJA**](ingesting_data.ipynb) - Strategies for feeding processed data back into Adobe Experience Platform.
 - [**BONUS NOTEBOOK: CJA Data View Solution Design Reference Generator**](cja_dataview_solution_design_reference_generator.ipynb) - A tool to assist in the design of CJA Data Views.
 
