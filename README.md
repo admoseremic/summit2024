@@ -1,20 +1,22 @@
-## L120 - Driving Business Impact with Data Science: Customer Journey Analytics Lab Materials
+# L120 - Driving Business Impact with Data Science: Customer Journey Analytics Lab Materials
 
-Welcome to the repository for **L120 - Driving Business Impact with Data Science: Customer Journey Analytics Lab** at Adobe Summit 2024. This resource is designed to showcase how Customer Journey Analytics (CJA) serves as a component of modern data science workflows. Through this lab, participants will gain hands-on experience with CJA's capabilities in data formatting, feature selection, and the on-the-fly pre-aggregation and preparation of data. We'll explore how to maintain data science consistency with analyst teams' data interactions, and importantly, how to bring enriched data back into CJA for further analysis. This cycle not only democratizes data access across teams but also facilitates its activation through audience creation and other impactful strategies.
+Welcome to the repository for **L120 - Driving Business Impact with Data Science: Customer Journey Analytics Lab** at Adobe Summit 2024. These materials are designed to showcase how Customer Journey Analytics (CJA) can be integrated into modern data science workflows. Through hands-on exercises, participants will learn how to leverage CJA's capabilities in data formatting, feature selection, pre-aggregation, and data preparation, all while maintaining consistency with analyst teams' data interactions. Furthermore, we'll explore how to enrich data analysis and bring findings back into CJA for further exploration and activation.
 
 ## Introduction
 
-The materials contained within this repository, presented at Adobe Summit 2024, are crafted to provide you with an end-to-end understanding of analyzing and leveraging customer journey data. You'll learn how CJA integrates into data science workflows, enhancing your ability to perform sophisticated data manipulation, visualization, and predictive modeling. From data formatting and feature selection to pre-aggregation and data preparation, these resources will guide you through working with data in ways that align with your analyst teams' operations. Moreover, you'll discover how to bring your data findings back into CJA for further exploration, democratization, and activation, empowering you to make data-driven decisions that drive real business impact.
+The materials contained in this repository, presented at Adobe Summit 2024, aim to provide an end-to-end understanding of analyzing and leveraging customer journey data. You will gain practical experience with CJA's integration into data science workflows, enhancing your skills in sophisticated data manipulation, visualization, and predictive modeling.
 
 ## Notebooks Overview
 
-Here's what you'll find in this repository:
+- [**01 Querying CJA Data.ipynb**](01_query_data.ipynb): Introduction to querying data from CJA for analysis. This notebook covers setting up credentials, exploring Data Views, and discovering Metrics and Dimensions within CJA.
 
-- [**Notebook 1: Querying CJA Data**](query_data.ipynb) - Introduction to data retrieval from CJA for analysis.
-- [**Notebook 2: Visualizing CJA Data**](visualize_data.ipynb) - Techniques for creating insightful data visualizations.
-- [**Notebook 3: Clustering & Propensity Modeling**](clustering.ipynb) - Advanced analytics for customer segmentation and behavior prediction.
-- [**Notebook 4: Ingesting Data Back into AEP > CJA**](ingesting_data.ipynb) - Strategies for feeding processed data back into Adobe Experience Platform.
-- [**BONUS NOTEBOOK: CJA Data View Solution Design Reference Generator**](cja_dataview_solution_design_reference_generator.ipynb) - A tool to assist in the design of CJA Solution Design Reference Documentation.
+- [**02 Visualizing CJA Data.ipynb**](02_visualize_data.ipynb): Techniques for creating insightful data visualizations. This includes retrieving and processing CJA data, visualizing trended orders, and forecasting future orders using SARIMAX.
+
+- [**03 Clustering & Propensity Modeling.ipynb**](03_clustering_and_propensity.ipynb): Advanced analytics techniques for customer segmentation and behavior prediction. This notebook delves into clustering using t-SNE and DBSCAN, building a propensity model to predict future customer actions, and exporting data for further analysis.
+
+- [**04 Writing Data to AEP > CJA.ipynb**](04_writing_data_to_aep.ipynb): Strategies for feeding processed data back into Adobe Experience Platform and CJA. It outlines creating a schema and dataset in AEP, ingesting data, and reviewing results in Analysis Workspace.
+
+- [**05 CJA DataView Solution Design Reference Generator.ipynb**](05_cja_dataview_solution_design_reference_generator.ipynb): A tool to assist in the design of CJA Solution Design Reference Documentation. It automates the generation of a comprehensive spreadsheet detailing all metrics and dimensions available in a selected CJA Data View.
 
 ## Getting Started
 
@@ -24,12 +26,26 @@ To explore these materials, ensure you have Jupyter Notebook installed. Clone th
 
 Ensure the following Python libraries are installed to fully utilize the notebooks:
 
+- `cjapy`
 - `pandas`
-- `requests`
+- `plotly`
 - `json`
-- `PyJWT` (include `PyJWT[crypto]` for security features)
-- `pathlib`
-- `pytest` (for testing purposes)
+- `jwt`
+- `requests`
+- `sqlalchemy`
+- `datetime`
+- `sklearn`
+- `numpy`
+- `statsmodels`
+- `warnings`
+
+These can be installed using pip:
+
+```sh
+pip install cjapy pandas plotly json jwt requests sqlalchemy datetime sklearn numpy statsmodels warnings
+```
+
+Note: cjapy might require additional setup as it is a custom library for Adobe's Customer Journey Analytics.
 
 ## Reference Links
 
