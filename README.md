@@ -8,15 +8,15 @@ The materials contained in this repository, presented at Adobe Summit 2024, aim 
 
 ## Notebooks Overview
 
-- [**01 Querying CJA Data.ipynb**](01_query_data.ipynb): Introduction to querying data from CJA for analysis. This notebook covers setting up credentials, exploring Data Views, and discovering Metrics and Dimensions within CJA.
+- [**01 Querying CJA Data.ipynb**](01 query_data.ipynb): Introduction to querying data from CJA for analysis. This notebook covers setting up credentials, exploring Data Views, and discovering Metrics and Dimensions within CJA.
 
-- [**02 Visualizing CJA Data.ipynb**](02_visualize_data.ipynb): Techniques for creating insightful data visualizations. This includes retrieving and processing CJA data, visualizing trended orders, and forecasting future orders using SARIMAX.
+- [**02 Visualizing CJA Data.ipynb**](02 visualize_data.ipynb): Techniques for creating insightful data visualizations. This includes retrieving and processing CJA data, visualizing trended orders, and forecasting future orders using SARIMAX.
 
-- [**03 Clustering & Propensity Modeling.ipynb**](03_clustering_and_propensity.ipynb): Advanced analytics techniques for customer segmentation and behavior prediction. This notebook delves into clustering using t-SNE and DBSCAN, building a propensity model to predict future customer actions, and exporting data for further analysis.
+- [**03 Clustering & Propensity Modeling.ipynb**](03 clustering_and_propensity.ipynb): Advanced analytics techniques for customer segmentation and behavior prediction. This notebook delves into clustering using t-SNE and DBSCAN, building a propensity model to predict future customer actions, and exporting data for further analysis.
 
-- [**04 Writing Data to AEP > CJA.ipynb**](04_writing_data_to_aep.ipynb): Strategies for feeding processed data back into Adobe Experience Platform and CJA. It outlines creating a schema and dataset in AEP, ingesting data, and reviewing results in Analysis Workspace.
+- [**04 Writing Data to AEP > CJA.ipynb**](04 writing_data_to_aep.ipynb): Strategies for feeding processed data back into Adobe Experience Platform and CJA. It outlines creating a schema and dataset in AEP, ingesting data, and reviewing results in Analysis Workspace.
 
-- [**05 CJA DataView Solution Design Reference Generator.ipynb**](05_cja_dataview_solution_design_reference_generator.ipynb): A tool to assist in the design of CJA Solution Design Reference Documentation. It automates the generation of a comprehensive spreadsheet detailing all metrics and dimensions available in a selected CJA Data View.
+- [**05 CJA DataView Solution Design Reference Generator.ipynb**](05 cja_dataview_solution_design_reference_generator.ipynb): A tool to assist in the design of CJA Solution Design Reference Documentation. It automates the generation of a comprehensive spreadsheet detailing all metrics and dimensions available in a selected CJA Data View.
 
 ## Getting Started
 
