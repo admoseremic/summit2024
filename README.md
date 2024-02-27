@@ -47,6 +47,9 @@ pip install cjapy pandas plotly json jwt requests sqlalchemy datetime sklearn nu
 
 Note: cjapy might require additional setup as it is a custom library for Adobe's Customer Journey Analytics.
 
+## Requirements
+[requirements.txt](requirements.txt)
+
 ## Reference Links
 
 - **cjapy GitHub Repository**: [https://github.com/pitchmuc/cjapy](https://github.com/pitchmuc/cjapy?tab=readme-ov-file)
